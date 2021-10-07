@@ -1,0 +1,103 @@
+<nav id="main-nav">
+      <ul>
+          <li>
+              <a href="#">Home</a>
+          </li>
+          <li>
+              <a href="pages/myProjects.html">Projects
+                  <span class="arrow">&#x25BC;</span>
+              </a>
+              <ul class="submenu">
+                  <li>
+                      <a href="pages/draw.html">Draw</a>
+                  </li>
+                  <li>
+                      <a href="#">Conditionals</a>
+                  </li>
+                  <li>
+                      <a href="#">CNN
+                          <span class="arrow">&#x25B6;</span>
+                      </a>
+                      <ul class="submenu-2">
+                          <li>
+                              <a href="#">ABC</a>
+                          </li>
+                          <li>
+                              <a href="#">CBS</a>
+                          </li>
+                          <li>
+                              <a href="#">CNN</a>
+                          </li>
+                      </ul>
+                  </li>
+              </ul>
+          </li>
+
+          <li>
+              <a href="#">Resources
+                  <span class="arrow">&#9989;</span>
+              </a>
+              <ul class="submenu">
+                  <li>
+                      <a href="https://p5js.org/reference/">P5 API</a>
+                  </li>
+                  <li>
+                      <a href="https://www.cnn.com/">CNNAgain</a>
+                  </li>
+                  <li>
+                      <a href="https://www.cnn.com/">CNN</a>
+                  </li>
+                  <li>
+                      <a href="https://processing.org/">Processing</a>
+                  </li>
+              </ul>
+          </li>
+          
+
+          
+<li>
+              <a href="#">AboutMe
+                  <span class="arrow">&#x1f601;</span>
+              </a>
+              <ul class="submenu">
+                  <li>
+                      <a href="#">CompSci</a>
+                  </li>
+                  <li>
+                      <a href="#">Dogs</a>
+                  </li>
+                  <li>
+                      <a href="https://www.cnn.com/">CNN</a>
+                  </li>
+                  <li>
+                      <a href="https://www.cnn.com/">CNN</a>
+                  </li>
+
+                  <li>
+                      
+                      <a href="#">ANdYetMoreCNN<span class="arrow">&#x25B6;  </span>  </a>
+                         
+                      </a>
+                      <ul class="submenu-2">
+                          <li>
+                              <a href="#">CNN</a>
+                          </li>
+                          <li>
+                              <a href="https://www.cnn.com/">CNN!</a>
+                          </li>
+                          <li>
+                              <a href="https://www.cnn.com/">CNN</a>
+                          </li>
+                      </ul>
+                  </li>
+              </ul>
+          </li>
+          
+
+                    <li>
+                        <a href="pages/deepThoughts.html">DeepThoughts</a>
+          </li>
+      </ul>
+  </nav>
+
+    <!--/menu-->

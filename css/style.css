@@ -1,0 +1,247 @@
+#bannerimg {
+    display: flex;
+    width: 100%;
+    height: 25%;;
+    border: 5px solid #324A59;
+    padding: 2px;
+    margin: 2px;
+}
+
+.menu {
+    display: flex;
+  border: 1px solid #e7e7e7;
+    
+    padding: 2px;
+    justify-content: space-around;
+}
+.menu a {
+    color: #F2F2F2;
+    text-decoration: none;
+    font-family: Notable;
+    font-size: 22px;
+}
+#main-nav {
+    margin-top: 2px;
+    padding: 0px;
+}
+
+#main-nav a {
+    color: #ffffff;
+    background: #230A59;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-family: 'Raleway';
+    text-transform: uppercase;
+    font-size: 21px;
+    border: 5px solid #000000;
+    transition: background 0.4s;
+}
+
+#main-nav a:hover {
+    background: #3E38F2;
+}
+
+#main-nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+
+#main-nav li {
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+#main-nav li:hover .submenu > li {
+    display: block;
+    flex-direction: column;
+    top: 0px;
+}
+
+.submenu li {
+    display: none;
+    position: absolute;
+    top: 0px;
+}
+
+.submenu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    
+}
+
+.submenu li {
+    position: relative;
+}
+
+.submenu li:hover .submenu-2 li {
+    display: block;
+}
+
+.submenu-2 li {
+    display: none;
+}
+
+.submenu-2 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0px;
+    left: 100%;
+    width: 250px;
+}
+
+.arrow {
+    margin-left: 8px;
+    font-size: 12px;
+}
+
+
+
+.box:hover {
+  background-color: #324A59;
+  transition: background 0.8s;
+}
+.box {
+    flex-grow: 1;
+    background: #7FA658;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #324A59;
+}
+title {
+  color: #324A59;
+      text-align: center;
+      font-family: 'Birthstone Bounce';
+
+}
+		body {
+      background-color: #B0CDD9
+
+
+    }
+    h1 {
+			color: #324A59;
+      text-align: center;
+      font-family: 'Birthstone Bounce';
+
+		}
+
+		h3 {
+			color: #324A59;
+      font-size: 30px;
+		}
+
+		body {
+			color: #6B8C49;
+      font-size: 25px;
+      
+		}
+    ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #B0CDD9;
+  background-color: #324A59;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #7FA658;
+}
+
+li a.active {
+  color: white;
+  background-color: #7FA658;
+}
+/*page layout with flexbox*/
+.flexbox-container {
+    display: flex;
+    flex-direction: row;
+    border: none;
+    border: 3px solid #324A59;
+
+
+    /*main (left right) axis*/
+    /*justify-content: stretch;*/
+    justify-content: flex-start;
+    /*justify-content: flex-end;*/
+    /*justify-content: center;*/
+    /*justify-content: stretch;*/
+    /*justify-content: space-between;*/
+    /*justify-content: space-evenly;*/
+    /*justify-content: space-end;*/
+
+
+
+    /*cross (up down) axis*/
+    /*align-items: space-evenly;
+    /*align-items:stretch;*/
+    /*align-items:space-between;*/
+    /*align-items:space-around;*/
+    /*align-items:end;*/
+    /*align-items:space-evenly;*/
+    
+}
+
+.flexbox-item {
+    margin: 5px;
+    padding: 3px;
+    border: 3px solid #324A59;
+      background-color: #B0CDD9
+    
+}
+
+.item-1 {
+    /*flex-grow: 1;*/
+    width: 70%;
+    min-height: 50px;
+    font-family:  'Crimson Text', serif;
+    font-size: 25px;
+      background-color: #B0CDD9
+   
+}
+
+.item-2 {
+    /*flex-grow: 2;*/
+    width: 30%;
+    min-height: 200px;
+    font-family:  'Crimson Text', serif;
+    align-self: center;
+      background-color: #B0CDD9
+   
+}
+
+.item-3 {
+    /*flex-grow: 3;*/
+    width: 33%;
+    min-height: 300px;
+    background-color: #E7AA32;
+}
+/*js file formatting*/
+canvas{
+    border: thin solid rgb(5, 1, 1);
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 0%);
+}
